@@ -13,7 +13,7 @@ public class Traffic {
         frame.add(road, BorderLayout.CENTER);
         // Ende JFrame
 
-        // frame.setResizable(false);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }

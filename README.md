@@ -1,3 +1,7 @@
+## Traffic Simulator
+
+this simple Traffic Simulator is seen as a simple training in Programming in Java and for presentation purposes.
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
