@@ -42,6 +42,7 @@ public class Road extends JPanel {
         }
     }
 
+    // Steps werden gemacht
     public void step() {
         for (int i = 0; i < cars.size(); i++) {
             Vehicle v = cars.get(i);

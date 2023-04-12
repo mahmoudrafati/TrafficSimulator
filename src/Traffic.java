@@ -120,7 +120,7 @@ public class Traffic implements ActionListener, Runnable {
         if (e.getSource().equals(sport)) {
             Sportscar sportscar = new Sportscar(0, 30);
             road.addCar(sportscar);
-            for (int x = 0; x < road.ROAD_WIDTH; x += 20) {// setzen neu erstelltes semi an 0
+            for (int x = 0; x < road.ROAD_WIDTH; x += 20) {// setzen neu erstelltes sport an 0
                 for (int y = 40; y < 600; y += 120) {
                     // man testet an deen jeweiligen y-positionen
                     // wenn es keine kollision gibt, wird
@@ -136,7 +136,7 @@ public class Traffic implements ActionListener, Runnable {
         if (e.getSource().equals(suv)) {
             SUV suv = new SUV(0, 30);
             road.addCar(suv);
-            for (int x = 0; x < road.ROAD_WIDTH; x += 20) {// setzen neu erstelltes semi an 0
+            for (int x = 0; x < road.ROAD_WIDTH; x += 20) {// setzen neu erstelltes suv an 0
                 for (int y = 40; y < 600; y += 120) {
                     // man testet an deen jeweiligen y-positionen
                     // wenn es keine kollision gibt, wird
